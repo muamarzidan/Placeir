@@ -1,4 +1,4 @@
-const FORMSPREE_URL = 'https://formspree.io/f/mnnavwob';
+const FORMSPREE_URL = `https://formspree.io/f/${import.meta.env.VITE_FORM_SPREE_API_URL}`;
 
 export const postNewsletter = async (email) => {
     try {
